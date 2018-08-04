@@ -14,7 +14,7 @@ void ADC_Init(void)
 {
     ADC10CTL0 = ADC10ON + ADC10IE + REFON + REF2_5V + SREF_1 + MSC + ADC10SHT_2;;  // ADC10ON, interrupt enabled
     ADC10CTL1 = INCH_3;                          // input A1
-    ADC10AE0 |= BIT3;                            //二次采集
+    ADC10AE0 |= BIT3;                            //
 }
 
 /****************************************************************************
